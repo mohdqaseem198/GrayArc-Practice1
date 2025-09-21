@@ -1,4 +1,5 @@
 import Hero from "./Hero";
+import Meet from "./Meet";
 import Mission from "./Mission";
 import Navbar from "./Navbar";
 
@@ -7,6 +8,7 @@ const Body = () => {
         <Navbar />
         <Hero />
         <Mission />
+        <Meet/>
     </div>)
 };
 
