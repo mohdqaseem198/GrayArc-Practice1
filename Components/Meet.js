@@ -1,4 +1,6 @@
 import Image from "next/image";
+import MeetCards from "./MeetCards";
+import Car from "./Car";
 
 const Meet = () => {
     return(<div className="p-10" id="Meet">
@@ -32,6 +34,8 @@ with procurement operations exceeding USD 350 million.
                     <Image className="m-auto scale-120 " src="/PromiseImg1.png" height={0} width={350} />
                 </div>
             </div>
+            <MeetCards />
+            <Car />
     </div>)
 };
 
