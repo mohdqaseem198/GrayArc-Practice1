@@ -1,3 +1,4 @@
+import ClientStory from "./ClientStory";
 import Hero from "./Hero";
 import Meet from "./Meet";
 import Mission from "./Mission";
@@ -9,6 +10,7 @@ const Body = () => {
         <Hero />
         <Mission />
         <Meet/>
+        <ClientStory/>
     </div>)
 };
 
