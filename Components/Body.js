@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Meet from "./Meet";
 import Mission from "./Mission";
 import Navbar from "./Navbar";
+import Transformation from "./Transformation";
 
 const Body = () => {
     return(<div>
@@ -11,6 +12,7 @@ const Body = () => {
         <Mission />
         <Meet/>
         <ClientStory/>
+        <Transformation />
     </div>)
 };
 
