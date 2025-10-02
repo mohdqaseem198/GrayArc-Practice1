@@ -15,7 +15,7 @@ const Hero = () => {
         setCount(count + 1);
     };
 
-    return(<div className="p-10" id="hero">
+    return(<div className="p-0 sm:p-10" id="hero">
             <div className="text-center
             grid grid-cols-1
             md:grid md:grid-cols-3
@@ -25,7 +25,7 @@ const Hero = () => {
                 md:col-span-2 md:pl-10
                 lg:col-span-2 lg:pl-10
                 xl:col-span-2 xl:pl-10">
-                    <h3 className="mb-3 mt-20 font-intel text-start text-[30px]">Formula to Fulfillment</h3>
+                    <h3 className="flex mb-3 mt-20 font-intel text-start text-[30px]">Formula to Fulfillment</h3>
                     <pre className="whitespace-pre-line text-start">Leading supply chain consulting services in India for pharmaceutical, chemical, and
                         agrochemical industries. We provide expert SAP supply chain implementation, regulatory
                         compliance support, and logistics optimization services that deliver up to 35% cost 

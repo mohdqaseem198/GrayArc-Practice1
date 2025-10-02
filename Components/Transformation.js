@@ -4,7 +4,8 @@ import TransformationRight from "./TransformationRight";
 
 const Transformation = () => {
     return(<div>
-            <div id="Transformation" className="grid grid-cols-1 p-10 
+            <div id="Transformation" className="grid grid-cols-1 p-0
+            sm:p-10
             md:grid-cols-4" >
                 <div className="col-span-1 flex
                 md:col-span-1">

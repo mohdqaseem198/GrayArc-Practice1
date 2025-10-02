@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const ClientStory = () => {
-    return(<div className="p-10" id="clientStory">
+    return(<div className="p-0 sm:p-10" id="clientStory">
         <h2 className="p-10  text-3xl">Client success stories</h2>
         <div className="flex flex-col justify-center gap-4
         md:flex md:flex-row">

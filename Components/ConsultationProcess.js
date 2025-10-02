@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const ConsultationProcess = () =>{
-    return<div className="p-10" id="ConsultationProcess">
+    return<div className="p-0 sm:p-10" id="ConsultationProcess">
         <div>
             <h2 className="text-[20px] my-5">Consultation Process</h2>
         </div>

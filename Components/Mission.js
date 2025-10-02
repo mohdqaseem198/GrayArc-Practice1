@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const Mission = () => {
-    return(<div className="p-10" id="Mission">
+    return(<div className="p-0 sm:p-10" id="Mission">   
             <div className="bg-gray-100 rounded-3xl  p-10">
                 <div>
                     <h2 className="text-3xl py-5">Our Mission</h2>

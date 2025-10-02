@@ -9,7 +9,8 @@ const Car = () => {
             </div>
             <div className="col-span-2 flex items-center text-center rounded-4xl  bg-gray-800 mt-5
             sm:ml-5 sm:mt-0">
-                <h2 className="text-white  text-[50px]">Ready to Optimize Your Manufacturing Supply Chain?</h2>
+                <h2 className="text-white  text-[30px]
+                sm:text-[50px]">Ready to Optimize Your Manufacturing Supply Chain?</h2>
             </div>
         </div>
 

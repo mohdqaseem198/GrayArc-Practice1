@@ -3,7 +3,7 @@ import MeetCards from "./MeetCards";
 import Car from "./Car";
 
 const Meet = () => {
-    return(<div className="p-10" id="Meet">
+    return(<div className="p-0 sm:p-10" id="Meet">
             <div className="flex flex-col p-10
             md:flex md:flex-row">
                 <div>

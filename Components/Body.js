@@ -1,5 +1,6 @@
 import ClientStory from "./ClientStory";
 import Hero from "./Hero";
+import IndustryFocused from "./IndustryFocused";
 import Meet from "./Meet";
 import Mission from "./Mission";
 import Navbar from "./Navbar";
@@ -9,6 +10,7 @@ const Body = () => {
     return(<div>
         <Navbar />
         <Hero />
+        <IndustryFocused />
         <Mission />
         <Meet/>
         <ClientStory/>
